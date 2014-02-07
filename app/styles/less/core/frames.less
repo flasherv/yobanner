@@ -1,0 +1,162 @@
+@import "timeline";
+
+@frame-00-native-DelayInTime:   0s;
+@frame-00-native-DelayOutTime:  @frame-00-native-DelayInTime + @frame-00-AnimationInTime + @frame-00-StaticTime;
+
+@frame-01-native-DelayInTime:   0s;
+@frame-01-native-DelayOutTime:  @frame-01-native-DelayInTime + @frame-01-AnimationInTime + @frame-01-StaticTime;
+
+@frame-02-native-DelayInTime:   3s;
+@frame-02-native-DelayOutTime:  @frame-02-native-DelayInTime + @frame-02-AnimationInTime + @frame-02-StaticTime;
+
+@frame-03-native-DelayInTime:   3s;
+@frame-03-native-DelayOutTime:  @frame-03-native-DelayInTime + @frame-03-AnimationInTime + @frame-03-StaticTime;
+
+@frame-04-native-DelayInTime:   3s;
+@frame-04-native-DelayOutTime:  @frame-04-native-DelayInTime + @frame-04-AnimationInTime + @frame-04-StaticTime;
+
+@frame-05-native-DelayInTime:   8s;
+@frame-05-native-DelayOutTime:  @frame-05-native-DelayInTime + @frame-05-AnimationInTime + @frame-05-StaticTime;
+
+@frame-06-native-DelayInTime:   9s;
+@frame-06-native-DelayOutTime:  @frame-06-native-DelayInTime + @frame-06-AnimationInTime + @frame-06-StaticTime;
+
+@frame-07-native-DelayInTime:   0s;
+@frame-07-native-DelayOutTime:  @frame-07-native-DelayInTime + @frame-07-AnimationInTime + @frame-07-StaticTime;
+
+@frame-08-native-DelayInTime:   9s;
+@frame-08-native-DelayOutTime:  @frame-08-native-DelayInTime + @frame-08-AnimationInTime + @frame-08-StaticTime;
+
+@frame-09-native-DelayInTime:   @frame-09-DelayTime + @frame-08-native-DelayOutTime + @frame-08-AnimationOutTime;
+@frame-09-native-DelayOutTime:  @frame-09-native-DelayInTime + @frame-09-AnimationInTime + @frame-09-StaticTime;
+
+@frame-10-native-DelayInTime:   @frame-10-DelayTime + @frame-09-native-DelayOutTime + @frame-09-AnimationOutTime;
+@frame-10-native-DelayOutTime:  @frame-10-native-DelayInTime + @frame-10-AnimationInTime + @frame-10-StaticTime;
+
+@frame-11-native-DelayInTime:   @frame-11-DelayTime + @frame-10-native-DelayOutTime + @frame-10-AnimationOutTime;
+@frame-11-native-DelayOutTime:  @frame-11-native-DelayInTime + @frame-11-AnimationInTime + @frame-11-StaticTime;
+
+@frame-12-native-DelayInTime:   @frame-12-DelayTime + @frame-11-native-DelayOutTime + @frame-11-AnimationOutTime;
+@frame-12-native-DelayOutTime:  @frame-12-native-DelayInTime + @frame-12-AnimationInTime + @frame-12-StaticTime;
+
+@frame-13-native-DelayInTime:   @frame-13-DelayTime + @frame-12-native-DelayOutTime + @frame-12-AnimationOutTime;
+@frame-13-native-DelayOutTime:  @frame-13-native-DelayInTime + @frame-13-AnimationInTime + @frame-13-StaticTime;
+
+@frame-14-native-DelayInTime:   @frame-14-DelayTime + @frame-13-native-DelayOutTime + @frame-13-AnimationOutTime;
+@frame-14-native-DelayOutTime:  @frame-14-native-DelayInTime + @frame-14-AnimationInTime + @frame-14-StaticTime;
+
+@frame-15-native-DelayInTime:   @frame-15-DelayTime + @frame-14-native-DelayOutTime + @frame-14-AnimationOutTime;
+@frame-15-native-DelayOutTime:  @frame-15-native-DelayInTime + @frame-15-AnimationInTime + @frame-15-StaticTime;
+
+@frame-16-native-DelayInTime:   @frame-16-DelayTime + @frame-15-native-DelayOutTime + @frame-15-AnimationOutTime;
+@frame-16-native-DelayOutTime:  @frame-16-native-DelayInTime + @frame-16-AnimationInTime + @frame-16-StaticTime;
+
+@frame-17-native-DelayInTime:   @frame-17-DelayTime + @frame-16-native-DelayOutTime + @frame-16-AnimationOutTime;
+@frame-17-native-DelayOutTime:  @frame-17-native-DelayInTime + @frame-17-AnimationInTime + @frame-17-StaticTime;
+
+@frame-18-native-DelayInTime:   @frame-18-DelayTime + @frame-17-native-DelayOutTime + @frame-17-AnimationOutTime;
+@frame-18-native-DelayOutTime:  @frame-18-native-DelayInTime + @frame-18-AnimationInTime + @frame-18-StaticTime;
+
+@frame-19-native-DelayInTime:   @frame-19-DelayTime + @frame-18-native-DelayOutTime + @frame-18-AnimationOutTime;
+@frame-19-native-DelayOutTime:  @frame-19-native-DelayInTime + @frame-19-AnimationInTime + @frame-19-StaticTime;
+
+#bnr_pedigree-wikidogiya_260x360 {
+  #frame-00.active {
+    background: url("../../../images/frame_000311.png") no-repeat left 20px bottom 32px;
+    animation: @frame-00-AnimationInName @frame-00-AnimationInTime @frame-00-native-DelayInTime @frame-00-AnimationInFunction, @frame-00-AnimationOutName @frame-00-AnimationOutTime @frame-00-native-DelayOutTime @frame-00-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-01.active {
+    transform-origin: 0% 100%;
+    left: 16px;
+    background: url("../../../images/frame_0014.png") no-repeat left -22px bottom -34px;
+    animation: @frame-01-AnimationInName @frame-01-AnimationInTime @frame-01-native-DelayInTime @frame-01-AnimationInFunction, @frame-01-AnimationOutName @frame-01-AnimationOutTime @frame-01-native-DelayOutTime @frame-01-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-02.active {
+    transform-origin: 60% 80%;
+    background: url("../../../images/frame_0017.png") no-repeat left 60px bottom 0px;
+    animation: @frame-02-AnimationInName @frame-02-AnimationInTime @frame-02-native-DelayInTime @frame-02-AnimationInFunction, @frame-02-AnimationOutName @frame-02-AnimationOutTime @frame-02-native-DelayOutTime @frame-02-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-03.active {
+    background: url("../../../images/frame_0012.png") no-repeat left 40px top 16px;
+    animation: @frame-03-AnimationInName @frame-03-AnimationInTime @frame-03-native-DelayInTime @frame-03-AnimationInFunction, @frame-03-AnimationOutName @frame-03-AnimationOutTime @frame-03-native-DelayOutTime @frame-03-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-04.active {
+    height: 0;
+    bottom: 60px;
+    left: 20px;
+    background: url("../../../images/frame_0005.png") no-repeat left -10px bottom 30px;
+    background-size: 140px auto;
+    animation: @frame-04-AnimationInName @frame-04-AnimationInTime @frame-04-native-DelayInTime @frame-04-AnimationInFunction, @frame-04-AnimationOutName @frame-04-AnimationOutTime @frame-04-native-DelayOutTime @frame-04-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-05.active {
+    background: url("../../../images/frame_0027.png") no-repeat left 51px bottom 152px;
+    animation: @frame-05-AnimationInName @frame-05-AnimationInTime @frame-05-native-DelayInTime @frame-05-AnimationInFunction, @frame-05-AnimationOutName @frame-05-AnimationOutTime @frame-05-native-DelayOutTime @frame-05-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-06.active {
+    background: url("../../../images/frame_0026.png") no-repeat left 40px bottom 16px;
+    animation: @frame-06-AnimationInName @frame-06-AnimationInTime @frame-06-native-DelayInTime @frame-06-AnimationInFunction, @frame-06-AnimationOutName @frame-06-AnimationOutTime @frame-06-native-DelayOutTime @frame-06-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-07 {
+    left: 0;
+  }
+  #frame-08.active {
+    left: 51px;
+    bottom: 152px;
+    width: 158px;
+    height: 55px;
+    background: url("../../../images/frame_0028.png") no-repeat left -158px bottom 0px;
+    animation: @frame-08-AnimationInName @frame-08-AnimationInTime @frame-08-native-DelayInTime @frame-08-AnimationInFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-09 {
+    animation: @frame-09-AnimationInName @frame-09-AnimationInTime @frame-09-native-DelayInTime @frame-09-AnimationInFunction, @frame-09-AnimationOutName @frame-09-AnimationOutTime @frame-09-native-DelayOutTime @frame-09-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-10 {
+    animation: @frame-10-AnimationInName @frame-10-AnimationInTime @frame-10-native-DelayInTime @frame-10-AnimationInFunction, @frame-10-AnimationOutName @frame-10-AnimationOutTime @frame-10-native-DelayOutTime @frame-10-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-11 {
+    animation: @frame-11-AnimationInName @frame-11-AnimationInTime @frame-11-native-DelayInTime @frame-11-AnimationInFunction, @frame-11-AnimationOutName @frame-11-AnimationOutTime @frame-11-native-DelayOutTime @frame-11-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-12 {
+    animation: @frame-12-AnimationInName @frame-12-AnimationInTime @frame-12-native-DelayInTime @frame-12-AnimationInFunction, @frame-12-AnimationOutName @frame-12-AnimationOutTime @frame-12-native-DelayOutTime @frame-12-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-13 {
+    animation: @frame-13-AnimationInName @frame-13-AnimationInTime @frame-13-native-DelayInTime @frame-13-AnimationInFunction, @frame-13-AnimationOutName @frame-13-AnimationOutTime @frame-13-native-DelayOutTime @frame-13-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-14 {
+    animation: @frame-14-AnimationInName @frame-14-AnimationInTime @frame-14-native-DelayInTime @frame-14-AnimationInFunction, @frame-14-AnimationOutName @frame-14-AnimationOutTime @frame-14-native-DelayOutTime @frame-14-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-15 {
+    animation: @frame-15-AnimationInName @frame-15-AnimationInTime @frame-15-native-DelayInTime @frame-15-AnimationInFunction, @frame-15-AnimationOutName @frame-15-AnimationOutTime @frame-15-native-DelayOutTime @frame-15-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-16 {
+    animation: @frame-16-AnimationInName @frame-16-AnimationInTime @frame-16-native-DelayInTime @frame-16-AnimationInFunction, @frame-16-AnimationOutName @frame-16-AnimationOutTime @frame-16-native-DelayOutTime @frame-16-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-17 {
+    animation: @frame-17-AnimationInName @frame-17-AnimationInTime @frame-17-native-DelayInTime @frame-17-AnimationInFunction, @frame-17-AnimationOutName @frame-17-AnimationOutTime @frame-17-native-DelayOutTime @frame-17-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-18 {
+    animation: @frame-18-AnimationInName @frame-18-AnimationInTime @frame-18-native-DelayInTime @frame-18-AnimationInFunction, @frame-18-AnimationOutName @frame-18-AnimationOutTime @frame-18-native-DelayOutTime @frame-18-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+  #frame-19 {
+    animation: @frame-19-AnimationInName @frame-19-AnimationInTime @frame-19-native-DelayInTime @frame-19-AnimationInFunction, @frame-19-AnimationOutName @frame-19-AnimationOutTime @frame-19-native-DelayOutTime @frame-19-AnimationOutFunction;
+    animation-fill-mode:forwards;
+  }
+}

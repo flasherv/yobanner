@@ -1,0 +1,14 @@
+{
+  "name": "prefixfree",
+  "_cacheHeaders": {
+    "ETag": "\"09fdc96e9db4e88d22150bf60b3e0368\"",
+    "Content-Length": "44830",
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "_release": "e-tag:09fdc96e9",
+  "main": "index",
+  "_source": "https://github.com/LeaVerou/prefixfree",
+  "_target": "*",
+  "_originalSource": "https://github.com/LeaVerou/prefixfree",
+  "_direct": true
+}

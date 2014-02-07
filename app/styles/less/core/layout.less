@@ -1,0 +1,51 @@
+#bnr_pedigree-wikidogiya_260x360 {
+  display: block;
+  position: relative;
+  width: 260px;
+  height: 360px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  > .layer {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  > .frames-container {
+    // position: relative;
+    list-style: none;
+    > .frame {
+      display: block;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+//      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 100%;
+      > .mainlink {
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 1000;
+      }
+    }
+  }
+  > .fallback {
+    transform: translateX(100%);
+  }
+}
+
+.static-background {
+  background: url("../../../images/frame_0001.png") no-repeat;
+}
