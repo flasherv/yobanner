@@ -166,7 +166,7 @@ module.exports = function(grunt) {
 
 
     });
-    grunt.registerTask('build', ['less',/*'cssmin',*/'imagemin','copyimg','replace'/*,'minifyhtml'*/]);
+    grunt.registerTask('build', ['less','cssmin','imagemin','copyimg','replace','minifyhtml']);
 
 
 
