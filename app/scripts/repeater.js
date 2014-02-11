@@ -4,16 +4,16 @@
 
 function Activate() {
     setTimeout(function() {
-        var frame = document.getElementsByClassName('frame');
-        for(var i = 0; i < frame.length; ++i){
-            frame[i].classList.add("active");
+        var f1 = document.getElementsByClassName('frame');
+        for(var i = 0; i < f1.length; ++i){
+            f1[i].classList.add("active");
         }
         console.log();
     }, 0);
     setTimeout(function() {
-        var frame = document.getElementsByClassName('frame');
-        for(var i = 0; i < frame.length; ++i){
-            frame[i].classList.remove("active");
+        var f1 = document.getElementsByClassName('frame');
+        for(var i = 0; i < f1.length; ++i){
+            f1[i].classList.remove("active");
         }
         Activate();
         console.log();
